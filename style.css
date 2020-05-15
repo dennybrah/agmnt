@@ -1,16 +1,32 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #463f3a;
+  background: #333333;
   }
+
+p {
+  font-size: 2vw;
+  text-align: center;
+  color: #587B7F;
+}
 
 .blinking {
       animation:blinkingText 1.2s infinite;
   }
   @keyframes blinkingText{
-      0%{     color: #000;    }
-      49%{    color: #000; }
-      60%{    color: transparent; }
-      99%{    color:transparent;  }
-      100%{   color: #000;    }
+      0%{     color: #F8F8FF;    }
+      35%{    color: #587B7F; }
+      56%{    color: transparent; }
+      99%{    color: transparent;  }
+      100%{   color: #587B7F;    }
   }
+
+.message {
+  font-family: 'Press Start 2p';
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
