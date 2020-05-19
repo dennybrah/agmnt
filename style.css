@@ -30,3 +30,10 @@ p {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
+a {
+  color:transparent;
+  text-decoration: none;
+ }
+
+
